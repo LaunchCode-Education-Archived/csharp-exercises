@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TempConv
 {
@@ -6,12 +7,22 @@ namespace TempConv
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Tempperature in F:");
-            string input = Console.ReadLine();
-            double fahrenheit = double.Parse(input);
+            double fahrenheit;
+            double celcius;
+            string input;
 
-            double celcius = (fahrenheit - 32) * 5 / 9;
-            Console.WriteLine("The Temperature in C is: " + celcius);
+            Console.WriteLine("Tempperature in F:");
+            input = Console.ReadLine();
+            fahrenheit = double.Parse(input);
+
+            string str = "asdf";
+            foreach (char c in str)
+            {
+                Console.WriteLine(c);
+            }
+
+            celcius = (fahrenheit - 32) * 5 / 9;
+            Console.WriteLine("The Temperature in C is: " + celcius);   
             Console.ReadLine();
         }
     }
