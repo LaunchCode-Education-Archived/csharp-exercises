@@ -8,6 +8,10 @@ namespace TechJobs
         static List<Dictionary<string, string>> allJobs = new List<Dictionary<string, string>>();
         static bool isDataLoaded = false;
 
+        /*
+         * Fetch list of all employers from loaded data,
+         * without duplicates.
+         */
         public static List<string> getAllEmployers() {
 
             loadData();
@@ -15,12 +19,49 @@ namespace TechJobs
             List<string> employers = new List<string>();
 
             foreach (Dictionary<string, string> job in allJobs) {
-                employers.Add(job["employer"]);
+
+                string anEmployer = job["employer"];
+
+                if (!employers.Contains(anEmployer))
+                {
+                    employers.Add(anEmployer);
+                }
+                
             }
 
             return employers;
         }
 
+        /*
+         * Returns results of search the jobs data by employer, using
+         * inclusion of the search term.
+         *
+         * For example, searching for "Enterprise" will include results
+         * with "Enterprise Holdings, Inc" as the employer.
+         */
+        public static List<Dictionary<string, string>> getJobsByEmployer(string employer)
+        {
+            loadData();
+
+            List<Dictionary<string, string>> jobs = new List<Dictionary<string, string>>();
+
+            foreach (Dictionary<string, string> job in allJobs)
+            {
+                string anEmployer = job["employer"];
+
+                if (anEmployer.Contains(employer))
+                {
+                    jobs.Add(job);
+                }
+            }
+
+            return jobs;
+        }
+
+        /*
+         * Fetch list of all employers from loaded data,
+         * without duplicates.
+         */
         public static List<string> getAllSkills()
         {
 
@@ -48,6 +89,35 @@ namespace TechJobs
             return skills;
         }
 
+        /*
+         * Returns results of search the jobs data by skill, using
+         * inclusion of the search term.
+         *
+         * For example, searching for "HTML" will include results
+         * with "HTML, JS, CSS" in the skills field.
+         */
+        public static List<Dictionary<string, string>> getJobsBySkill(string skill)
+        {
+            loadData();
+
+            List<Dictionary<string, string>> jobs = new List<Dictionary<string, string>>();
+
+            foreach (Dictionary<string, string> job in allJobs)
+            {
+                string jobSkills = job["skills"];
+
+                if (jobSkills.Contains(skill))
+                {
+                    jobs.Add(job);
+                }
+            }
+
+            return jobs;
+        }
+
+        /*
+         * Load and parse data from Resrouces/job_data.csv
+         */
         private static void loadData()
         {
 
@@ -86,6 +156,9 @@ namespace TechJobs
             isDataLoaded = true;
         }
 
+        /*
+         * Parse a single line of a CSV file into a string array
+         */
         private static string[] CSVRowToStringArray(string r, char fieldSep = ',', char stringSep = '\"')
         {
             bool bolQuote = false;

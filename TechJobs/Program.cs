@@ -9,7 +9,7 @@ namespace TechJobs
         private static string[] browseChoices = { "Skill", "Employer" };
         private static string[] searchChoices = { "Skill", "Employer" };
 
-        static void Main(string[] args)
+       static void Main(string[] args)
         {
             Console.WriteLine("Welcome to LaunchCode's TechJobs App!");
 
@@ -43,9 +43,36 @@ namespace TechJobs
                         }
                     }
                 }
-                else
+                else // choice is "search"
                 {
+                    // How does the user want to search (e.g. by skill or employer)
+                    int searchChoice = displayChoiceMenu("Search", searchChoices);
 
+                    // What is their search term?
+                    Console.WriteLine("\nSearch term: ");
+                    string searchTerm = Console.ReadLine();
+
+                    List<Dictionary<string, string>> searchResults;
+
+                    // Fetch results
+                    if (searchChoices[searchChoice].Equals("Skill"))
+                    {
+                        searchResults = JobData.getJobsBySkill(searchTerm);
+                    }
+                    else
+                    {
+                        searchResults = JobData.getJobsByEmployer(searchTerm);
+                    }
+
+                    // Print results
+                    if (searchResults.Count == 0)
+                    {
+                        Console.WriteLine("No results");
+                    }
+                    else
+                    {
+                        printJobs(searchResults);
+                    }
                 }
             }
         }
