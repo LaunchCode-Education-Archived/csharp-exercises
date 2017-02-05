@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{655DCCA5-1485-49C2-87D2-3E699016B280}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempConv", "TempConv\TempConv.csproj", "{8DEB902B-9072-448B-A508-C52E45481ED6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElseIf", "ElseIf\ElseIf.csproj", "{D513FFB0-0E71-4967-A24E-8BD3045BFF88}"
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{655DCCA5-1485-49C2-87D2-3E699016B280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{655DCCA5-1485-49C2-87D2-3E699016B280}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{655DCCA5-1485-49C2-87D2-3E699016B280}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{655DCCA5-1485-49C2-87D2-3E699016B280}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8DEB902B-9072-448B-A508-C52E45481ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8DEB902B-9072-448B-A508-C52E45481ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DEB902B-9072-448B-A508-C52E45481ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
