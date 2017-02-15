@@ -10,7 +10,7 @@ namespace Histo
             // Pull in data from a file as configured as a project resource
             string rawData = Histo.Properties.Resources.test_data;
             string[] data = rawData.Split(' ');
-
+            
             // Fill the list with zeros
             List<int> count = new List<int>();
             for (int i = 0; i < data.Length; i++) {
