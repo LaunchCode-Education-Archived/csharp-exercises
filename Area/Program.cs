@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Area
 {
@@ -15,7 +12,7 @@ namespace Area
 
             double area = 3.14 * radius * radius;
 
-            Console.WriteLine("The area of circle of radius " + area + " is: " + area);
+            Console.WriteLine("The area of circle of radius " + radius + " is: " + area);
 
             Console.ReadLine();
         }
