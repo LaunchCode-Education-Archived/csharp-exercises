@@ -11,7 +11,7 @@ namespace GradebookDict
             Dictionary<string, double> students = new Dictionary<string, double>();
             string newStudent;
 
-            Console.WriteLine("Enter your students:");
+            Console.WriteLine("Enter your students (or ENTER to finish):");
             do
             {
                 Console.Write("name: ");
@@ -20,15 +20,15 @@ namespace GradebookDict
                 {
                     // Get the student's grade
                     Console.Write("grade: ");
-                    double aGrade = double.Parse(Console.ReadLine());
+                    double newGrade = double.Parse(Console.ReadLine());
 
-                    students.Add(newStudent, aGrade);
+                    students.Add(newStudent, newGrade);
                 }
             }
             while (newStudent != "");
 
-            // print roster
-            Console.WriteLine("Student roster:");
+            // Print class roster
+            Console.WriteLine("\nClass roster:");
             foreach (KeyValuePair<string, double> student in students)
             {
                 Console.WriteLine(student.Key + " (" + student.Value + ")");

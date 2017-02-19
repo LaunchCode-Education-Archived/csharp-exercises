@@ -12,7 +12,7 @@ namespace Gradebook
             List<double> grades = new List<double>();
             string newStudent;
 
-            Console.WriteLine("Enter your students:");
+            Console.WriteLine("Enter your students (or ENTER to finish):");
             do
             {
                 newStudent = Console.ReadLine();
@@ -27,12 +27,12 @@ namespace Gradebook
             foreach (string student in students)
             {
                 Console.Write("Grade for " + student + ": ");
-                double aGrade = double.Parse(Console.ReadLine());
-                grades.Add(aGrade);
+                double newGrade = double.Parse(Console.ReadLine());
+                grades.Add(newGrade);
             }
 
-            // print roster
-            Console.WriteLine("Student roster:");
+            // Print class roster
+            Console.WriteLine("\nClass roster:");
             for (int i = 0; i < students.Count; i++)
             {
                 Console.WriteLine(students[i] + " (" + grades[i] + ")");
