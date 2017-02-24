@@ -11,7 +11,7 @@ namespace CountingCharacters
         {
             string testString = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc accumsan sem ut ligula scelerisque sollicitudin. Ut at sagittis augue. Praesent quis rhoncus justo. Aliquam erat volutpat. Donec sit amet suscipit metus, non lobortis massa. Vestibulum augue ex, dapibus ac suscipit vel, volutpat eget massa. Donec nec velit non ligula efficitur luctus.";
 
-            Dictionary<Char, int> counts = new Dictionary<char, int>();
+            Dictionary<char, int> counts = new Dictionary<char, int>();
 
             foreach (char c in testString)
             {
@@ -21,12 +21,11 @@ namespace CountingCharacters
                 }
                 else
                 {
-                    int newCount = counts[c] + 1;
-                    counts[c] = newCount;
+                    counts[c]++;
                 }
             }
 
-            foreach (KeyValuePair<Char, int> count in counts)
+            foreach (KeyValuePair<char, int> count in counts)
             {
                 Console.WriteLine(count.Key + ": " + count.Value);
             }
