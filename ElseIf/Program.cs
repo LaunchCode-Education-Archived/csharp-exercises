@@ -24,7 +24,8 @@ namespace ElseIf
             {
                 Console.WriteLine('B');
             }
-            else {
+            else
+            {
                 Console.WriteLine('A');
             }
 

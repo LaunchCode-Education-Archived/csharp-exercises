@@ -15,7 +15,8 @@ namespace DayPrinter
             int dayNum = int.Parse(input);
 
             string day;
-            switch (dayNum) {
+            switch (dayNum)
+            {
                 case 0:
                     day = "Sunday";
                     break;
