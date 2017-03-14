@@ -32,6 +32,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "School", "School\School.xproj", "{32EAE63D-C12F-4227-B021-B7D036E45B2B}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Restaurant", "Restaurant\Restaurant.xproj", "{CF94FB50-8EC4-4428-AC46-8E9E1BD94E9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +88,10 @@ Global
 		{32EAE63D-C12F-4227-B021-B7D036E45B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32EAE63D-C12F-4227-B021-B7D036E45B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32EAE63D-C12F-4227-B021-B7D036E45B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF94FB50-8EC4-4428-AC46-8E9E1BD94E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF94FB50-8EC4-4428-AC46-8E9E1BD94E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF94FB50-8EC4-4428-AC46-8E9E1BD94E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF94FB50-8EC4-4428-AC46-8E9E1BD94E9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
