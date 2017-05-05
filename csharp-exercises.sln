@@ -1,33 +1,43 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Area", "Area\Area.xproj", "{B326BCD4-33CE-4F80-B9A9-3C2FFFAA999B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Area", "Area\Area.csproj", "{B326BCD4-33CE-4F80-B9A9-3C2FFFAA999B}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DayPrinter", "DayPrinter\DayPrinter.xproj", "{B3E76AAA-3BE8-49C7-A831-64EF68C6F28D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayPrinter", "DayPrinter\DayPrinter.csproj", "{B3E76AAA-3BE8-49C7-A831-64EF68C6F28D}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ElseIf", "ElseIf\ElseIf.xproj", "{C7008ACC-EE4B-49CC-B7FB-5F9F95E257A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElseIf", "ElseIf\ElseIf.csproj", "{C7008ACC-EE4B-49CC-B7FB-5F9F95E257A9}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TempConv", "TempConv\TempConv.xproj", "{6D18F93D-E26F-4FF4-ABF2-1450FD9FB19D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempConv", "TempConv\TempConv.csproj", "{6D18F93D-E26F-4FF4-ABF2-1450FD9FB19D}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloWorld", "HelloWorld\HelloWorld.xproj", "{D4E93AA7-2F10-4564-AA2A-1DC71367C8B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{D4E93AA7-2F10-4564-AA2A-1DC71367C8B5}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CountingCharacters", "CountingCharacters\CountingCharacters.xproj", "{CD5CD03F-221B-4BA2-9DEE-8DB6BE83803F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountingCharacters", "CountingCharacters\CountingCharacters.csproj", "{CD5CD03F-221B-4BA2-9DEE-8DB6BE83803F}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sandbox", "Sandbox\Sandbox.xproj", "{B30072D4-D11D-45B9-8F8C-4AC29E0E1C98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloMethods", "HelloMethods\HelloMethods.csproj", "{9B69E0D2-FBD5-4FB4-9D40-768AE4F57300}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloMethods", "HelloMethods\HelloMethods.xproj", "{9B69E0D2-FBD5-4FB4-9D40-768AE4F57300}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gradebook", "Gradebook\Gradebook.csproj", "{9E08496B-2501-4CBF-844F-8FD7BA97F4E6}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Gradebook", "Gradebook\Gradebook.xproj", "{9E08496B-2501-4CBF-844F-8FD7BA97F4E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookDict", "GradebookDict\GradebookDict.csproj", "{EFCB1B91-2E92-478F-BFF7-013FF6911DCC}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GradebookDict", "GradebookDict\GradebookDict.xproj", "{EFCB1B91-2E92-478F-BFF7-013FF6911DCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookArray", "GradebookArray\GradebookArray.csproj", "{89051A0E-8D18-48C3-B4E6-D05F62D252CE}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GradebookArray", "GradebookArray\GradebookArray.xproj", "{89051A0E-8D18-48C3-B4E6-D05F62D252CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloClasses", "HelloClasses\HelloClasses.csproj", "{B302A2B2-EB60-4A87-A4DB-280B3677ACF7}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloClasses", "HelloClasses\HelloClasses.xproj", "{B302A2B2-EB60-4A87-A4DB-280B3677ACF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School", "School\School.csproj", "{3C0ED185-233A-4086-AF87-39B36D22360C}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "School", "School\School.xproj", "{3C0ED185-233A-4086-AF87-39B36D22360C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Temperature", "Temperature\Temperature.csproj", "{13B00427-30D6-4AE7-9781-838BAF0F8368}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadOnly", "ReadOnly\ReadOnly.csproj", "{4C45DCBD-5B39-4B2C-A00A-575409A8C19A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant", "Restaurant\Restaurant.csproj", "{0F95ACFB-7F38-43C3-BF93-12DE3E2F3785}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cats", "Cats\Cats.csproj", "{D474721E-D1B4-4CCC-9339-2CAC7F7A827C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizTime", "QuizTime\QuizTime.csproj", "{18B4B50E-5DFF-458D-AFB4-9E400B25ACDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caesar", "Caesar\Caesar.csproj", "{1EE15E4B-E8A5-4FA3-957C-8F41B6C91329}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +69,6 @@ Global
 		{CD5CD03F-221B-4BA2-9DEE-8DB6BE83803F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD5CD03F-221B-4BA2-9DEE-8DB6BE83803F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD5CD03F-221B-4BA2-9DEE-8DB6BE83803F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B30072D4-D11D-45B9-8F8C-4AC29E0E1C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B30072D4-D11D-45B9-8F8C-4AC29E0E1C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B30072D4-D11D-45B9-8F8C-4AC29E0E1C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B30072D4-D11D-45B9-8F8C-4AC29E0E1C98}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9B69E0D2-FBD5-4FB4-9D40-768AE4F57300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9B69E0D2-FBD5-4FB4-9D40-768AE4F57300}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B69E0D2-FBD5-4FB4-9D40-768AE4F57300}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,6 +93,30 @@ Global
 		{3C0ED185-233A-4086-AF87-39B36D22360C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C0ED185-233A-4086-AF87-39B36D22360C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C0ED185-233A-4086-AF87-39B36D22360C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B00427-30D6-4AE7-9781-838BAF0F8368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B00427-30D6-4AE7-9781-838BAF0F8368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B00427-30D6-4AE7-9781-838BAF0F8368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B00427-30D6-4AE7-9781-838BAF0F8368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C45DCBD-5B39-4B2C-A00A-575409A8C19A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C45DCBD-5B39-4B2C-A00A-575409A8C19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C45DCBD-5B39-4B2C-A00A-575409A8C19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C45DCBD-5B39-4B2C-A00A-575409A8C19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F95ACFB-7F38-43C3-BF93-12DE3E2F3785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F95ACFB-7F38-43C3-BF93-12DE3E2F3785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F95ACFB-7F38-43C3-BF93-12DE3E2F3785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F95ACFB-7F38-43C3-BF93-12DE3E2F3785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D474721E-D1B4-4CCC-9339-2CAC7F7A827C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D474721E-D1B4-4CCC-9339-2CAC7F7A827C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D474721E-D1B4-4CCC-9339-2CAC7F7A827C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D474721E-D1B4-4CCC-9339-2CAC7F7A827C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B4B50E-5DFF-458D-AFB4-9E400B25ACDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B4B50E-5DFF-458D-AFB4-9E400B25ACDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B4B50E-5DFF-458D-AFB4-9E400B25ACDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B4B50E-5DFF-458D-AFB4-9E400B25ACDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE15E4B-E8A5-4FA3-957C-8F41B6C91329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE15E4B-E8A5-4FA3-957C-8F41B6C91329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE15E4B-E8A5-4FA3-957C-8F41B6C91329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE15E4B-E8A5-4FA3-957C-8F41B6C91329}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
