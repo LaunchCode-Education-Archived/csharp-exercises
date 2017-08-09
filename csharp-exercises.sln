@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DayPrinter", "DayPrinter\DayPrinter.xproj", "{B3E76AAA-3BE8-49C7-A831-64EF68C6F28D}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DayPrinter", "DayPrinter\DayPrinter.csproj", "{B3E76AAA-3BE8-49C7-A831-64EF68C6F28D}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ElseIf", "ElseIf\ElseIf.xproj", "{C7008ACC-EE4B-49CC-B7FB-5F9F95E257A9}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ElseIf", "ElseIf\ElseIf.csproj", "{C7008ACC-EE4B-49CC-B7FB-5F9F95E257A9}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TempConv", "TempConv\TempConv.xproj", "{6D18F93D-E26F-4FF4-ABF2-1450FD9FB19D}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TempConv", "TempConv\TempConv.csproj", "{6D18F93D-E26F-4FF4-ABF2-1450FD9FB19D}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloMethods", "HelloMethods\HelloMethods.xproj", "{9B69E0D2-FBD5-4FB4-9D40-768AE4F57300}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloMethods", "HelloMethods\HelloMethods.csproj", "{9B69E0D2-FBD5-4FB4-9D40-768AE4F57300}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Gradebook", "Gradebook\Gradebook.xproj", "{9E08496B-2501-4CBF-844F-8FD7BA97F4E6}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Gradebook", "Gradebook\Gradebook.csproj", "{9E08496B-2501-4CBF-844F-8FD7BA97F4E6}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GradebookDict", "GradebookDict\GradebookDict.xproj", "{EFCB1B91-2E92-478F-BFF7-013FF6911DCC}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GradebookDict", "GradebookDict\GradebookDict.csproj", "{EFCB1B91-2E92-478F-BFF7-013FF6911DCC}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GradebookArray", "GradebookArray\GradebookArray.xproj", "{89051A0E-8D18-48C3-B4E6-D05F62D252CE}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GradebookArray", "GradebookArray\GradebookArray.csproj", "{89051A0E-8D18-48C3-B4E6-D05F62D252CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
