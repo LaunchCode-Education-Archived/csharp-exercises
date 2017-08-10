@@ -26,7 +26,7 @@ namespace Gradebook
             // Get student grades
             foreach (string student in students)
             {
-                Console.Write("Grade for " + student + ": ");
+                Console.WriteLine("Grade for " + student + ": ");
                 double newGrade = double.Parse(Console.ReadLine());
                 grades.Add(newGrade);
             }
