@@ -33,7 +33,7 @@ namespace GradebookArray
             // Get student grades
             for (int i = 0; i < numStudents; i++)
             {
-                Console.Write("Grade for " + students[i] + ": ");
+                Console.WriteLine("Grade for " + students[i] + ": ");
                 double newGrade = double.Parse(Console.ReadLine());
                 grades[i] = newGrade;
             }
