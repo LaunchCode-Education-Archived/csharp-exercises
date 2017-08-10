@@ -19,7 +19,7 @@ namespace GradebookDict
                 if (newStudent != "")
                 {
                     // Get the student's grade
-                    Console.Write("grade: ");
+                    Console.WriteLine("grade: ");
                     double newGrade = double.Parse(Console.ReadLine());
 
                     students.Add(newStudent, newGrade);
