@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManip", "StringManip\StringManip.csproj", "{AC1AA869-0EFB-4057-B722-A376E9C364F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC1AA869-0EFB-4057-B722-A376E9C364F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1AA869-0EFB-4057-B722-A376E9C364F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1AA869-0EFB-4057-B722-A376E9C364F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1AA869-0EFB-4057-B722-A376E9C364F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B72910E8-380B-40A3-8AAB-84775F8DE8DB}
+	EndGlobalSection
+EndGlobal
