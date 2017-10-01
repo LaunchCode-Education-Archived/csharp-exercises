@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+    int i = 1;
+}
+
+if (ViewBag.allvehicle.Count = null)
+{
+    <p>There are no vehicles yet!</p>
+}
+
+
+@foreach( var vehicle in ViewBag.objInAllVehicles)
+{
+    <div>@i - Vehicle @i : @vehicle.Brand is @vehicle.Color and has @vehicle.Tires tires </div>
+    <br />
+    <div>@i++</div>
+}
+
+<h3>
+    <a asp-action="Add" asp-controller="Home">Add a Vehicle</a>
+</h3>

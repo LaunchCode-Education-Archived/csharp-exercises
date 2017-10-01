@@ -26,20 +26,27 @@ namespace CheeseMVC.Controllers
             return View();
         }
 
-
         // POST method @Add Cheese Form()
-        [Route("/Cheese/Add")]
         [HttpPost]
-        public IActionResult NewCheese(string name, string description)
+        public IActionResult Add(string name, string description)
         {
             // Add the new cheese to existing cheeses
             Cheeses.Add(name, description);
             return Redirect("/Cheese");
         }
-        public IActionResult Shred(string[])
+
+        [HttpGet]
+        public IActionResult Shred()
         {
-            return { "Stuff", "OtherStuff"};
-        )
-       
+            ViewBag.cheeses = Cheeses;
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Shred(string name)
+        {
+            Cheeses.Remove(name);
+            return Redirect("/Cheese");
+        }
     }
 }

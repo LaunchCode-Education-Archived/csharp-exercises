@@ -1,32 +1,28 @@
 ﻿@{
+    //Mimics {{ % extends "base.html" %}}
 
+    //Section will except C# code because of @ symbol...
 }
 
 <h1>Say cheese!!</h1>
 
-<p><a asp-controller="Cheese" asp-action="Add">Add a Cheese and Description</a></p>
-
-
+<h4><a asp-controller="Cheese" asp-action="Add">Add a Cheese & Description</a></h4>
 
 @if (ViewBag.cheeses.Count == 0)
 {
     <p>No Cheeses yet.</p>
 }
 
-
-
 <table style="width:100%">
+    <tr>
+        <th><b>Cheese</b></th>
+        <th><b>Description</b></th>
+    </tr>
     @foreach (KeyValuePair<string,string> cheese in ViewBag.cheeses)
     {
         <tr>
-            <th>Cheese</th>
-            <th>Description</th>  
-        </tr>
-        <tr>
             <td>@cheese.Key</td>
             <td>@cheese.Value</td>
-        </tr>
-        
+        </tr>        
     }
-    
 </table>

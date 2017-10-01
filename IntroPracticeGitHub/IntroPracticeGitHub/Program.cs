@@ -12,7 +12,8 @@ namespace IntroPracticeGitHub
             Console.WriteLine("Will I be able to save to GitHub?");
             string answer = Console.ReadLine();
 
-            Console.Write(answer);
+
+            Console.ReadLine();
         }
     }
 }

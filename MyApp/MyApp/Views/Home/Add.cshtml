@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Addn Vehicle";
+}
+<h2>@ViewData["Title"].</h2>
+
+<p>Use this area to provide additional information.</p>
+<form asp-controller="Home" asp-action="Add" method="post">
+    <select name="vehicletype">
+        <option value="car">Car</option>
+        <opttion value="motorcycle">Motorcycle</opttion>
+    </select>
+    <input type="text" placeholder="Type your brand" name="brand" />
+
+    <input type="text" placeholder="Type your color" name="color" />\
+    <button type="submit">Save</button>
+
+</form>

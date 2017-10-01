@@ -1,0 +1,46 @@
+﻿@{
+
+}
+
+<h2>Let's shred some cheese!!</h2>
+
+The functionality of my Shred Cheese route goes here....
+<!--
+First I need to locate this content.....
+Fixed the the page routing by changing the Index Action Result name...
+Now I need to display my data as a dictionary.....
+Test of display without checkbox functionality....Failure line 18
+
+No cheeses in Dictionary yet ... 
+Perhaps add one item first or check 1st with if..adding failed
+NullException 
+
+Attempt to code same as Index.cshtml......
+Attempt successful!
+I discovered I need to move "ViewBag.cheeses = Cheeses"-->
+
+<p>Create a form with checkboxes next to key:value pairs</p>
+
+@if (ViewBag.cheeses.Count == 0)
+{
+    <h3>No Cheese to remove!</h3>
+} 
+
+<h3>Remove a cheese</h3>
+
+<form method="post">
+@foreach (KeyValuePair<string, string> cheese in ViewBag.cheeses)
+{
+    <input type="checkbox" name="name" value="@cheese.Key" />@cheese.Key
+    <br />
+    
+}
+    <input type="submit" />
+</form>
+<!--
+<form method="post">
+    <!--<input type="checkbox" name="name" id="cheeseid" />
+    <input name="name" id="cheeseid" type="text" placeholder="Name"/>
+    <input type="submit"/>
+</form>
+-->
