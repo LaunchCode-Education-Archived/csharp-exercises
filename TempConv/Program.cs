@@ -9,11 +9,10 @@ namespace TempConv
         {
             double fahrenheit;
             double celcius;
-            string input;
 
             Console.WriteLine("Tempperature in F:");
-            input = Console.ReadLine();
-            fahrenheit = double.Parse(input);
+            fahrenheit = double.Parse(Console.ReadLine());
+           
 
             string str = "asdf";
             foreach (char c in str)

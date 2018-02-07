@@ -16,16 +16,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookDict", "GradebookD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookArray", "GradebookArray\GradebookArray.csproj", "{89051A0E-8D18-48C3-B4E6-D05F62D252CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputOutput", "ConsoleApp1\InputOutput.csproj", "{7FE76222-B28E-4B88-9B37-153205BE8BAF}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetAreaRectangle", "GetAreaRectangle\GetAreaRectangle.csproj", "{89640C40-876F-480B-A262-5E425790B2F4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MilesPerGallon", "MilesPerGallon\MilesPerGallon.csproj", "{1D2FACE1-A990-4929-8F53-F8F1910406ED}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindSubString", "FindSubString\FindSubString.csproj", "{BC867568-E472-4577-8BD2-7208CB864F3C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Area", "Area\Area.csproj", "{9C2F0EE0-3B23-4347-8342-2185809DD2C6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,26 +50,6 @@ Global
 		{89051A0E-8D18-48C3-B4E6-D05F62D252CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89051A0E-8D18-48C3-B4E6-D05F62D252CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89051A0E-8D18-48C3-B4E6-D05F62D252CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7FE76222-B28E-4B88-9B37-153205BE8BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7FE76222-B28E-4B88-9B37-153205BE8BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7FE76222-B28E-4B88-9B37-153205BE8BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7FE76222-B28E-4B88-9B37-153205BE8BAF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{89640C40-876F-480B-A262-5E425790B2F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89640C40-876F-480B-A262-5E425790B2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89640C40-876F-480B-A262-5E425790B2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89640C40-876F-480B-A262-5E425790B2F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1D2FACE1-A990-4929-8F53-F8F1910406ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D2FACE1-A990-4929-8F53-F8F1910406ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D2FACE1-A990-4929-8F53-F8F1910406ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D2FACE1-A990-4929-8F53-F8F1910406ED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BC867568-E472-4577-8BD2-7208CB864F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC867568-E472-4577-8BD2-7208CB864F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC867568-E472-4577-8BD2-7208CB864F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC867568-E472-4577-8BD2-7208CB864F3C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C2F0EE0-3B23-4347-8342-2185809DD2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C2F0EE0-3B23-4347-8342-2185809DD2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C2F0EE0-3B23-4347-8342-2185809DD2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C2F0EE0-3B23-4347-8342-2185809DD2C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
