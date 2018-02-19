@@ -16,13 +16,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookDict", "GradebookD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookArray", "GradebookArray\GradebookArray.csproj", "{89051A0E-8D18-48C3-B4E6-D05F62D252CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfEven", "SumOfEven\SumOfEven.csproj", "{FF386A69-4890-467B-B49E-AB7AA49CB47A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfEven", "SumOfEven\SumOfEven.csproj", "{FF386A69-4890-467B-B49E-AB7AA49CB47A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListsAndStrings", "ListsAndStrings\ListsAndStrings.csproj", "{A5D16CF5-BBFD-4840-B390-7EF139F9E0AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListsAndStrings", "ListsAndStrings\ListsAndStrings.csproj", "{A5D16CF5-BBFD-4840-B390-7EF139F9E0AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{F9DD29C1-A38E-4DD8-95D0-9DF8E16D63E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{F9DD29C1-A38E-4DD8-95D0-9DF8E16D63E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries", "Dictionaries\Dictionaries.csproj", "{7C376C0B-AC88-4988-90E7-AB1A0F8364A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionaries", "Dictionaries\Dictionaries.csproj", "{7C376C0B-AC88-4988-90E7-AB1A0F8364A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilderGradebook", "StringBuilderGradebook\StringBuilderGradebook.csproj", "{C30CAD57-3E74-48AA-8D3E-E686C5FF96F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,10 @@ Global
 		{7C376C0B-AC88-4988-90E7-AB1A0F8364A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C376C0B-AC88-4988-90E7-AB1A0F8364A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C376C0B-AC88-4988-90E7-AB1A0F8364A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30CAD57-3E74-48AA-8D3E-E686C5FF96F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30CAD57-3E74-48AA-8D3E-E686C5FF96F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30CAD57-3E74-48AA-8D3E-E686C5FF96F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30CAD57-3E74-48AA-8D3E-E686C5FF96F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
