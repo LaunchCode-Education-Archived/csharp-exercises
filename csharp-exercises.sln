@@ -18,6 +18,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookArray", "Gradebook
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfEven", "SumOfEven\SumOfEven.csproj", "{FF386A69-4890-467B-B49E-AB7AA49CB47A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListsAndStrings", "ListsAndStrings\ListsAndStrings.csproj", "{A5D16CF5-BBFD-4840-B390-7EF139F9E0AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{FF386A69-4890-467B-B49E-AB7AA49CB47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF386A69-4890-467B-B49E-AB7AA49CB47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF386A69-4890-467B-B49E-AB7AA49CB47A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5D16CF5-BBFD-4840-B390-7EF139F9E0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D16CF5-BBFD-4840-B390-7EF139F9E0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D16CF5-BBFD-4840-B390-7EF139F9E0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D16CF5-BBFD-4840-B390-7EF139F9E0AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
