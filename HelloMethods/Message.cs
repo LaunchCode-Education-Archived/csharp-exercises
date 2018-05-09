@@ -10,15 +10,15 @@ namespace HelloMethods
         public static string GetMessage(string lang)
         {
             if (lang.Equals("sp")) {
-                return "Hello World";
+                return "Hola Mundo!";
             }
             else if (lang.Equals("fr"))
             {
-                return "Bonjour le monde";
+                return "Bonjour le monde!";
             }
             else
             {
-                return "Hola Mundo";
+                return "Hello World!";
             }
         }
     }
