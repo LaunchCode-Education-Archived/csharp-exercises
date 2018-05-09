@@ -7,9 +7,7 @@ namespace Area
         static void Main(string[] args)
         {
             double radius, area, pi;
-            pi = 3.14;
-
-            
+            pi = 3.14;            
             Console.WriteLine("Enter a radius: ");
             radius = double.Parse(Console.ReadLine());
             area = pi * radius * radius;
