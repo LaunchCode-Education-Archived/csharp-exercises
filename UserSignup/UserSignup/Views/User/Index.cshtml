@@ -1,0 +1,19 @@
+﻿@model List<UserSignup.Models.User>
+
+<br />
+
+@if (Model.Count == 0)
+{
+    <p>Please <a asp-area="" asp-controller="User" asp-action="Add">Sign up</a>.</p>
+}
+else
+{
+    <b>Current Usernames</b>
+    foreach (var un in Model)
+    {
+        <br>
+        <a asp-controller="Detail" asp-action="Index" asp-route-id="@un.UserId">@un.Username</a>
+    }
+
+    <p>Please <a asp-area="" asp-controller="User" asp-action="Add">Sign up</a>.</p>
+}

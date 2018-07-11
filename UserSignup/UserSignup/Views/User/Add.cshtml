@@ -1,0 +1,24 @@
+﻿@model UserSignup.Models.User
+<br />
+<form method="post" action="Add">
+    <p>@ViewBag.PasswordError @ViewBag.UsernameError</p>
+
+    <div class="form-element">
+        <label>UserName</label>
+        <input name="Username" value="@Model.Username" type="text" />
+    </div>
+    <div class="form-element">
+        <label>Email</label>
+        <input name="Email" value="@Model.Email" type="email" />
+    </div>
+    <div class="form-element">
+        <label>Password</label>
+        <input name="Password" value="@Model.Password" type="password" />
+    </div>
+    <div class="form-element">
+        <label>Verify Password</label>
+        <input name="verify" type="password" />
+    </div>
+
+    <input type="submit" value="Submit" />
+</form>
