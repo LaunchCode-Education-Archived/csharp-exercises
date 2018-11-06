@@ -18,6 +18,9 @@ namespace School
             Console.WriteLine(student1.Equals(student2));
 
             Console.ReadLine();
+
+            
         }
+
     }
 }

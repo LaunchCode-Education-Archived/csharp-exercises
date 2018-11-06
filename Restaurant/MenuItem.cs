@@ -7,6 +7,7 @@ namespace Restaurant
 {
     public class MenuItem
     {
+        public int MenuItemId { get; set; }
         public string Name { get; set; }
         public double Price { get; set; }
         

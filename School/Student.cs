@@ -42,6 +42,5 @@ namespace School
             Student studentObj = o as Student;
             return StudentId == studentObj.StudentId;
         }
-
     }
 }
